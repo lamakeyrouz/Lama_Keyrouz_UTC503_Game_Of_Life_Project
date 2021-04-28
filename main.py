@@ -44,13 +44,13 @@ def count(grid, cell_row, cell_col):
 
 # Generating an empty grid (grid of only 0's) of the same size as the main grid
 def get_empty_grid():
-    tempGrid = []
+    temp_grid = []
     for row in range(main_rows):
         arr = []
         for col in range(main_columns):
             arr.append(0)
-        tempGrid.append(arr)
-    return tempGrid
+        temp_grid.append(arr)
+    return temp_grid
 
 # Color the cells according to their value.
 def color_cells(grid):
